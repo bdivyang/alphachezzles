@@ -19,10 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="949" selection-end="949" vertical-scroll-proportion="0.75977653">
+            <state line="38" column="4" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="9" selection-start="439" selection-end="439" vertical-scroll-proportion="0.2849162">
               <folding />
             </state>
           </provider>
@@ -35,6 +44,7 @@
       <list>
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -329,7 +339,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="949" selection-end="949" vertical-scroll-proportion="0.75977653">
+        <state line="38" column="4" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="439" selection-end="439" vertical-scroll-proportion="0.2849162">
           <folding />
         </state>
       </provider>
