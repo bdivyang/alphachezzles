@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def dash
   end
+
+  def profile
+  end
 end

@@ -1,2 +1,7 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<% provide(:title, 'Home') %>
+<head>
+  <title> Welcome to Chezzles | <%= yield(:title) %></title>
+</head>
+
+<h1>Welcome to Chezzles</h1>
+<p> Chezzles Homepage </p>
