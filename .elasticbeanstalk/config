@@ -1,0 +1,11 @@
+[global]
+ApplicationName=alphachezzles
+DevToolsEndpoint=git.elasticbeanstalk.us-west-2.amazonaws.com
+EnvironmentName=alphachezzles-env
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=C:\Sites\rails_projects\alphachezzles\.elasticbeanstalk\optionsettings.alphachezzles-env
+RdsEnabled=No
+Region=us-west-2
+ServiceEndpoint=https://elasticbeanstalk.us-west-2.amazonaws.com
+SolutionStack=64bit Amazon Linux running Ruby 1.9.3
+
