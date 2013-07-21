@@ -57,4 +57,56 @@ p {
   font-size: 1.7em;
   color: #00bfff;
   font-family: Helvetica;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+  &:hover {
+    color: #00ff7f;
+    text-decoration: none;
+  }
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 50px;
+  border-color: 2px solid #808080;
+  color: #999;
+  a {
+    color: #555;
+    &:hover {
+      color: #222;
+    }
+  }
+  ul {
+    float: left;
+    list-style: none;
+    li {
+      padding-top: 5px;
+    }
+  }
+}
+
+.sub-footer {
+  margin-top: 25px;
+  padding-top: 5px;
+  small {
+    margin-left: 25px;
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      padding-top: 5px;
+    }
+  }
+}
+
+.footer-head-list-item {
+  text-transform: uppercase;
 }

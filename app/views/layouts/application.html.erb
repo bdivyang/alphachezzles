@@ -5,35 +5,16 @@
         <%= stylesheet_link_tag    "application", media: "all" %>
         <%= javascript_include_tag "application" %>
         <%= csrf_meta_tags %>
-        <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
-        <![endif]-->
+        <%= render 'layouts/shim' %>
     </head>
 
     <body>
-        <header class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <nav>
-                        <ul class="nav pull-left">
-                            <li> <%= link_to "Home", '#' %></li>
-                            <li> <%= link_to "Dash", '#' %></li>
-                            <li> <%= link_to "Blog", '#' %></li>
-                        </ul>
-                    </nav>
-
-                    <nav>
-                        <ul class="nav pull-right">
-                            <li> <%= link_to "Chezzles", '#', id: "logo" %> </li>
-                            <li> <%= link_to "Log In", '#' %></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
+        <%= render 'layouts/header' %>
 
         <div class="container">
           <%= yield %>
         </div>
+
+        <%= render 'layouts/footer' %>
     </body>
 </html>
