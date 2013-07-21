@@ -6,18 +6,29 @@
           <ul class="nav pull-left">
             <li> <%= link_to "Home", '#' %></li>
             <li> <%= link_to "Dash", '#' %></li>
-            <li> <%= link_to "Blog", '#' %></li>
+            <li> <%= link_to "Profile", '#' %></li>
           </ul>
         </nav>
-        <nav class="span2">
+
+        <nav class="span3">
           <ul class="nav">
             <li> <%= link_to "Chezzles", '#', id: "logo" %> </li>
           </ul>
         </nav>
-        <nav class="span3 offset2">
-          <ul class="nav pull-right">
-            <li> <%= link_to "Log In", '#' %></li>
-          </ul>
+
+        <nav class="pull-right">
+          <!--ul class="nav pull-right"-->
+            <div class="btn-group">
+              <button class="btn btn-primary"> Log In </button>
+              <button class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li> Email </li>
+                <li> Password </li>
+                <li> Submit </li>
+              </ul>
+            </div>
         </nav>
       </div>
     </div>
