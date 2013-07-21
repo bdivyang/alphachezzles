@@ -5,6 +5,8 @@ Alphachezzles::Application.routes.draw do
 
   get "pages/profile"
 
+  get "pages/about/mission"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

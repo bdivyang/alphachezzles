@@ -7,4 +7,18 @@ class PagesController < ApplicationController
 
   def profile
   end
+
+  def about
+    def mission
+    end
+
+    def team
+    end
+
+    def centres
+    end
+
+    def schools
+    end
+  end
 end
