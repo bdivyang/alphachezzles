@@ -1,13 +1,16 @@
 Alphachezzles::Application.routes.draw do
-  get "pages/home"
 
-  get "pages/dash"
+  root :to => 'pages#home'
 
-  get "pages/profile"
+  match '/dash',                                to: 'pages#dash'
+  match '/profile',                             to: 'pages#profile'
+  match '/about/mission',                       to: 'pages#about/mission'
 
-  get "pages/about/mission"
 
-  # The priority is based upon order of creation:
+
+  match '/help/faq',                            to: 'pages#help/faq'
+
+    # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:

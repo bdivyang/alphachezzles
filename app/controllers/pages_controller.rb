@@ -21,4 +21,9 @@ class PagesController < ApplicationController
     def schools
     end
   end
+
+  def help
+    def faq
+    end
+  end
 end
